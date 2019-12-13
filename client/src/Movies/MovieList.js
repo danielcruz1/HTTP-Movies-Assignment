@@ -18,6 +18,9 @@ export default class MovieList extends Component {
   }
 
   render() {
+    if(this.state.movies.length === 0) {
+      return <p>Loading...</p>
+    }
     return (
       <div className="movie-list">
         {this.state.movies.map(movie => (
