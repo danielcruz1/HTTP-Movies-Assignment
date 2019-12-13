@@ -75,3 +75,20 @@ body {
   color: red;
   text-align: center;
 }
+
+.update-title {
+  text-align: center;
+}
+
+.update-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 20px;
+}
+
+.update-content {
+  width: 80%;
+  margin-bottom: 10px;
+  align-items: center;
+}
