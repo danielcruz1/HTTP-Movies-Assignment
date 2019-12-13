@@ -57,13 +57,13 @@ export default class Movie extends React.Component {
         <Link to={`/update-movie/${this.props.match.params.id}`}>
           <div>
             <button>
-              Edit
+              Edit Movie Info
             </button>
           </div>
         </Link>
         <div  onClick={(e) =>{this.deleteMovie(e, this.props.match.params.id)}}>
           <button>
-            Delete
+            Delete Movie
           </button>
         </div>
       </div>
